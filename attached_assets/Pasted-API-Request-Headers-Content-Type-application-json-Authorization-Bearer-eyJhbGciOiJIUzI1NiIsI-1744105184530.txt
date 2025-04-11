@@ -1,0 +1,24 @@
+API Request Headers: {Content-Type: 'application/json', Authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZC…yNTd9.-p6lcfFvqOsam4TBibs5d3hoE01E7Qsow5KWsaKe0xU'}Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZWE1ZTU1MmNlZDhlY2YyZGE1NjRkNCIsIm5hbWUiOiJjaiIsImVtYWlsIjoiY2hlZGxpZnJpbmlmZmRAZ21haWwuY29tIiwiaWF0IjoxNzQ0MDk5NDU3LCJleHAiOjE3NDQ3MDQyNTd9.-p6lcfFvqOsam4TBibs5d3hoE01E7Qsow5KWsaKe0xU"Content-Type: "application/json"[[Prototype]]: Objectconstructor: ƒ Object()hasOwnProperty: ƒ hasOwnProperty()isPrototypeOf: ƒ isPrototypeOf()propertyIsEnumerable: ƒ propertyIsEnumerable()toLocaleString: ƒ toLocaleString()toString: ƒ toString()valueOf: ƒ valueOf()__defineGetter__: ƒ __defineGetter__()__defineSetter__: ƒ __defineSetter__()__lookupGetter__: ƒ __lookupGetter__()__lookupSetter__: ƒ __lookupSetter__()__proto__: (...)get __proto__: ƒ __proto__()set __proto__: ƒ __proto__()
+queryClient.ts:53 
+            
+            
+           POST http://127.0.0.1:5000/api/shop/create-payment-intent 401 (Unauthorized)
+apiRequest @ queryClient.ts:53
+fetchPaymentIntent @ CheckoutPage.tsx:119
+(anonymous) @ CheckoutPage.tsx:143
+commitHookEffectListMount @ chunk-WERSD76P.js?v=3d8047bd:16915
+commitPassiveMountOnFiber @ chunk-WERSD76P.js?v=3d8047bd:18156
+commitPassiveMountEffects_complete @ chunk-WERSD76P.js?v=3d8047bd:18129
+commitPassiveMountEffects_begin @ chunk-WERSD76P.js?v=3d8047bd:18119
+commitPassiveMountEffects @ chunk-WERSD76P.js?v=3d8047bd:18109
+flushPassiveEffectsImpl @ chunk-WERSD76P.js?v=3d8047bd:19490
+flushPassiveEffects @ chunk-WERSD76P.js?v=3d8047bd:19447
+commitRootImpl @ chunk-WERSD76P.js?v=3d8047bd:19416
+commitRoot @ chunk-WERSD76P.js?v=3d8047bd:19277
+performSyncWorkOnRoot @ chunk-WERSD76P.js?v=3d8047bd:18895
+flushSyncCallbacks @ chunk-WERSD76P.js?v=3d8047bd:9119
+(anonymous) @ chunk-WERSD76P.js?v=3d8047bd:18627Understand this errorAI
+CheckoutPage.tsx:136 Failed to create payment intent: Error: 401: {"error":"Authentication required"}
+    at throwIfResNotOk (queryClient.ts:6:11)
+    at async apiRequest (queryClient.ts:54:3)
+    at async fetchPaymentIntent (CheckoutPage.tsx:119:28)

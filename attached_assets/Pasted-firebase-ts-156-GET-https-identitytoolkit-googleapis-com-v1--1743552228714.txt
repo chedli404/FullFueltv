@@ -1,0 +1,61 @@
+firebase.ts:156 
+            
+            
+           GET https://identitytoolkit.googleapis.com/v1/projects?key=948857661295-onde50eg1hqovq5eferdhk5ssu5ekpt4.apps.googleusercontent.com 400 (Bad Request)
+(anonymous) @ firebase_auth.js?v=fa706e6a:1084
+await in (anonymous)
+_performFetchWithErrorHandling @ firebase_auth.js?v=fa706e6a:1093
+_performApiRequest @ firebase_auth.js?v=fa706e6a:1053
+_getProjectConfig @ firebase_auth.js?v=fa706e6a:7167
+_validateOrigin @ firebase_auth.js?v=fa706e6a:7175
+_originValidation @ firebase_auth.js?v=fa706e6a:7565
+onExecution @ firebase_auth.js?v=fa706e6a:6870
+await in onExecution
+(anonymous) @ firebase_auth.js?v=fa706e6a:6734
+await in (anonymous)
+execute @ firebase_auth.js?v=fa706e6a:6730
+executeNotNull @ firebase_auth.js?v=fa706e6a:6850
+signInWithPopup @ firebase_auth.js?v=fa706e6a:6815
+signInWithGooglePopup @ firebase.ts:156
+handleGoogleSignIn @ GoogleAuthButton.tsx:52
+callCallback2 @ chunk-WERSD76P.js?v=fa706e6a:3674
+invokeGuardedCallbackDev @ chunk-WERSD76P.js?v=fa706e6a:3699
+invokeGuardedCallback @ chunk-WERSD76P.js?v=fa706e6a:3733
+invokeGuardedCallbackAndCatchFirstError @ chunk-WERSD76P.js?v=fa706e6a:3736
+executeDispatch @ chunk-WERSD76P.js?v=fa706e6a:7014
+processDispatchQueueItemsInOrder @ chunk-WERSD76P.js?v=fa706e6a:7034
+processDispatchQueue @ chunk-WERSD76P.js?v=fa706e6a:7043
+dispatchEventsForPlugins @ chunk-WERSD76P.js?v=fa706e6a:7051
+(anonymous) @ chunk-WERSD76P.js?v=fa706e6a:7174
+batchedUpdates$1 @ chunk-WERSD76P.js?v=fa706e6a:18913
+batchedUpdates @ chunk-WERSD76P.js?v=fa706e6a:3579
+dispatchEventForPluginEventSystem @ chunk-WERSD76P.js?v=fa706e6a:7173
+dispatchEventWithEnableCapturePhaseSelectiveHydrationWithoutDiscreteEventReplay @ chunk-WERSD76P.js?v=fa706e6a:5478
+dispatchEvent @ chunk-WERSD76P.js?v=fa706e6a:5472
+dispatchDiscreteEvent @ chunk-WERSD76P.js?v=fa706e6a:5449Understand this errorAI
+firebase.ts:197 Google popup sign-in error: FirebaseError: Firebase: Error (auth/api-key-not-valid.-please-pass-a-valid-api-key.).
+    at createErrorInternal (firebase_auth.js?v=fa706e6a:694:37)
+    at _fail (firebase_auth.js?v=fa706e6a:659:9)
+    at _performFetchWithErrorHandling (firebase_auth.js?v=fa706e6a:1117:9)
+    at async _validateOrigin (firebase_auth.js?v=fa706e6a:7175:33)
+overrideMethod @ hook.js:608
+signInWithGooglePopup @ firebase.ts:197
+await in signInWithGooglePopup
+handleGoogleSignIn @ GoogleAuthButton.tsx:52
+callCallback2 @ chunk-WERSD76P.js?v=fa706e6a:3674
+invokeGuardedCallbackDev @ chunk-WERSD76P.js?v=fa706e6a:3699
+invokeGuardedCallback @ chunk-WERSD76P.js?v=fa706e6a:3733
+invokeGuardedCallbackAndCatchFirstError @ chunk-WERSD76P.js?v=fa706e6a:3736
+executeDispatch @ chunk-WERSD76P.js?v=fa706e6a:7014
+processDispatchQueueItemsInOrder @ chunk-WERSD76P.js?v=fa706e6a:7034
+processDispatchQueue @ chunk-WERSD76P.js?v=fa706e6a:7043
+dispatchEventsForPlugins @ chunk-WERSD76P.js?v=fa706e6a:7051
+(anonymous) @ chunk-WERSD76P.js?v=fa706e6a:7174
+batchedUpdates$1 @ chunk-WERSD76P.js?v=fa706e6a:18913
+batchedUpdates @ chunk-WERSD76P.js?v=fa706e6a:3579
+dispatchEventForPluginEventSystem @ chunk-WERSD76P.js?v=fa706e6a:7173
+dispatchEventWithEnableCapturePhaseSelectiveHydrationWithoutDiscreteEventReplay @ chunk-WERSD76P.js?v=fa706e6a:5478
+dispatchEvent @ chunk-WERSD76P.js?v=fa706e6a:5472
+dispatchDiscreteEvent @ chunk-WERSD76P.js?v=fa706e6a:5449Understand this errorAI
+firebase.ts:211 Firebase configuration: {apiKey: true, projectId: true, appId: true}apiKey: trueappId: trueprojectId: true[[Prototype]]: Object
+firebase.ts:226 Initiating Google sign-in with redirect...

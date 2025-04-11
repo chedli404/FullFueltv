@@ -1,0 +1,157 @@
+chunk-WERSD76P.js?v=376ae7e6:21551 Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools
+AuthContext.tsx:81 Token found in localStorage, verifying with backend
+
+                
+          
+          
+          
+         Chrome is moving towards a new experience that allows users to choose to browse without third-party cookies.
+AuthContext.tsx:94 Token valid, user authenticated
+queryClient.ts:44 
+            
+            
+           POST https://b568583a-9b42-45cd-8437-a31322f78f80-00-1iqqpedecc3r4.riker.replit.dev/api/shop/products 401 (Unauthorized)
+apiRequest @ queryClient.ts:44
+mutationFn @ Dashboard.tsx:736
+fn @ @tanstack_react-query.js?v=376ae7e6:1189
+run @ @tanstack_react-query.js?v=376ae7e6:494
+start @ @tanstack_react-query.js?v=376ae7e6:536
+execute @ @tanstack_react-query.js?v=376ae7e6:1225
+await in execute
+mutate @ @tanstack_react-query.js?v=376ae7e6:2630
+(anonymous) @ @tanstack_react-query.js?v=376ae7e6:3295
+handleProductSubmit @ Dashboard.tsx:853
+onSubmit @ Dashboard.tsx:1974
+callCallback2 @ chunk-WERSD76P.js?v=376ae7e6:3674
+invokeGuardedCallbackDev @ chunk-WERSD76P.js?v=376ae7e6:3699
+invokeGuardedCallback @ chunk-WERSD76P.js?v=376ae7e6:3733
+invokeGuardedCallbackAndCatchFirstError @ chunk-WERSD76P.js?v=376ae7e6:3736
+executeDispatch @ chunk-WERSD76P.js?v=376ae7e6:7014
+processDispatchQueueItemsInOrder @ chunk-WERSD76P.js?v=376ae7e6:7034
+processDispatchQueue @ chunk-WERSD76P.js?v=376ae7e6:7043
+dispatchEventsForPlugins @ chunk-WERSD76P.js?v=376ae7e6:7051
+(anonymous) @ chunk-WERSD76P.js?v=376ae7e6:7174
+batchedUpdates$1 @ chunk-WERSD76P.js?v=376ae7e6:18913
+batchedUpdates @ chunk-WERSD76P.js?v=376ae7e6:3579
+dispatchEventForPluginEventSystem @ chunk-WERSD76P.js?v=376ae7e6:7173
+dispatchEventWithEnableCapturePhaseSelectiveHydrationWithoutDiscreteEventReplay @ chunk-WERSD76P.js?v=376ae7e6:5478
+dispatchEvent @ chunk-WERSD76P.js?v=376ae7e6:5472
+dispatchDiscreteEvent @ chunk-WERSD76P.js?v=376ae7e6:5449
+queryClient.ts:44 
+            
+            
+           POST https://b568583a-9b42-45cd-8437-a31322f78f80-00-1iqqpedecc3r4.riker.replit.dev/api/shop/products 401 (Unauthorized)
+apiRequest @ queryClient.ts:44
+mutationFn @ Dashboard.tsx:736
+fn @ @tanstack_react-query.js?v=376ae7e6:1189
+run @ @tanstack_react-query.js?v=376ae7e6:494
+start @ @tanstack_react-query.js?v=376ae7e6:536
+execute @ @tanstack_react-query.js?v=376ae7e6:1225
+await in execute
+mutate @ @tanstack_react-query.js?v=376ae7e6:2630
+(anonymous) @ @tanstack_react-query.js?v=376ae7e6:3295
+handleProductSubmit @ Dashboard.tsx:853
+onSubmit @ Dashboard.tsx:1974
+callCallback2 @ chunk-WERSD76P.js?v=376ae7e6:3674
+invokeGuardedCallbackDev @ chunk-WERSD76P.js?v=376ae7e6:3699
+invokeGuardedCallback @ chunk-WERSD76P.js?v=376ae7e6:3733
+invokeGuardedCallbackAndCatchFirstError @ chunk-WERSD76P.js?v=376ae7e6:3736
+executeDispatch @ chunk-WERSD76P.js?v=376ae7e6:7014
+processDispatchQueueItemsInOrder @ chunk-WERSD76P.js?v=376ae7e6:7034
+processDispatchQueue @ chunk-WERSD76P.js?v=376ae7e6:7043
+dispatchEventsForPlugins @ chunk-WERSD76P.js?v=376ae7e6:7051
+(anonymous) @ chunk-WERSD76P.js?v=376ae7e6:7174
+batchedUpdates$1 @ chunk-WERSD76P.js?v=376ae7e6:18913
+batchedUpdates @ chunk-WERSD76P.js?v=376ae7e6:3579
+dispatchEventForPluginEventSystem @ chunk-WERSD76P.js?v=376ae7e6:7173
+dispatchEventWithEnableCapturePhaseSelectiveHydrationWithoutDiscreteEventReplay @ chunk-WERSD76P.js?v=376ae7e6:5478
+dispatchEvent @ chunk-WERSD76P.js?v=376ae7e6:5472
+dispatchDiscreteEvent @ chunk-WERSD76P.js?v=376ae7e6:5449
+chunk-WERSD76P.js?v=376ae7e6:521 Warning: validateDOMNesting(...): <a> cannot appear as a descendant of <a>.
+    at a
+    at a
+    at https://b568583a-9b42-45cd-8437-a31322f78f80-00-1iqqpedecc3r4.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=376ae7e6:337:18
+    at div
+    at section
+    at HeroSection (https://b568583a-9b42-45cd-8437-a31322f78f80-00-1iqqpedecc3r4.riker.replit.dev/src/components/HeroSection.tsx:25:45)
+    at main
+    at HomePage
+    at Route (https://b568583a-9b42-45cd-8437-a31322f78f80-00-1iqqpedecc3r4.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=376ae7e6:323:16)
+    at Switch (https://b568583a-9b42-45cd-8437-a31322f78f80-00-1iqqpedecc3r4.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=376ae7e6:379:17)
+    at Router
+    at CartProvider (https://b568583a-9b42-45cd-8437-a31322f78f80-00-1iqqpedecc3r4.riker.replit.dev/src/contexts/CartContext.tsx:20:32)
+    at AuthProvider (https://b568583a-9b42-45cd-8437-a31322f78f80-00-1iqqpedecc3r4.riker.replit.dev/src/contexts/AuthContext.tsx:32:32)
+    at QueryClientProvider (https://b568583a-9b42-45cd-8437-a31322f78f80-00-1iqqpedecc3r4.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=376ae7e6:2805:3)
+    at App
+    at GoogleOAuthProvider (https://b568583a-9b42-45cd-8437-a31322f78f80-00-1iqqpedecc3r4.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@react-oauth_google.js?v=376ae7e6:42:32)
+printWarning @ chunk-WERSD76P.js?v=376ae7e6:521
+error @ chunk-WERSD76P.js?v=376ae7e6:505
+validateDOMNesting @ chunk-WERSD76P.js?v=376ae7e6:8256
+createInstance @ chunk-WERSD76P.js?v=376ae7e6:8328
+completeWork @ chunk-WERSD76P.js?v=376ae7e6:16290
+completeUnitOfWork @ chunk-WERSD76P.js?v=376ae7e6:19224
+performUnitOfWork @ chunk-WERSD76P.js?v=376ae7e6:19206
+workLoopSync @ chunk-WERSD76P.js?v=376ae7e6:19137
+renderRootSync @ chunk-WERSD76P.js?v=376ae7e6:19116
+performSyncWorkOnRoot @ chunk-WERSD76P.js?v=376ae7e6:18874
+flushSyncCallbacks @ chunk-WERSD76P.js?v=376ae7e6:9119
+(anonymous) @ chunk-WERSD76P.js?v=376ae7e6:18627
+setTimeout
+scheduleFn @ @tanstack_react-query.js?v=376ae7e6:555
+flush @ @tanstack_react-query.js?v=376ae7e6:569
+batch @ @tanstack_react-query.js?v=376ae7e6:587
+dispatch_fn @ @tanstack_react-query.js?v=376ae7e6:996
+setData @ @tanstack_react-query.js?v=376ae7e6:696
+onSuccess @ @tanstack_react-query.js?v=376ae7e6:897
+resolve @ @tanstack_react-query.js?v=376ae7e6:456
+Promise.then
+run @ @tanstack_react-query.js?v=376ae7e6:498
+start @ @tanstack_react-query.js?v=376ae7e6:536
+fetch @ @tanstack_react-query.js?v=376ae7e6:926
+executeFetch_fn @ @tanstack_react-query.js?v=376ae7e6:2211
+onSubscribe @ @tanstack_react-query.js?v=376ae7e6:1898
+subscribe @ @tanstack_react-query.js?v=376ae7e6:24
+(anonymous) @ @tanstack_react-query.js?v=376ae7e6:3022
+subscribeToStore @ chunk-WERSD76P.js?v=376ae7e6:11984
+commitHookEffectListMount @ chunk-WERSD76P.js?v=376ae7e6:16915
+commitPassiveMountOnFiber @ chunk-WERSD76P.js?v=376ae7e6:18156
+commitPassiveMountEffects_complete @ chunk-WERSD76P.js?v=376ae7e6:18129
+commitPassiveMountEffects_begin @ chunk-WERSD76P.js?v=376ae7e6:18119
+commitPassiveMountEffects @ chunk-WERSD76P.js?v=376ae7e6:18109
+flushPassiveEffectsImpl @ chunk-WERSD76P.js?v=376ae7e6:19490
+flushPassiveEffects @ chunk-WERSD76P.js?v=376ae7e6:19447
+commitRootImpl @ chunk-WERSD76P.js?v=376ae7e6:19416
+commitRoot @ chunk-WERSD76P.js?v=376ae7e6:19277
+performSyncWorkOnRoot @ chunk-WERSD76P.js?v=376ae7e6:18895
+flushSyncCallbacks @ chunk-WERSD76P.js?v=376ae7e6:9119
+(anonymous) @ chunk-WERSD76P.js?v=376ae7e6:18627
+queryClient.ts:44 
+            
+            
+           PUT https://b568583a-9b42-45cd-8437-a31322f78f80-00-1iqqpedecc3r4.riker.replit.dev/api/shop/products/67eebc1505ed82ded1852aa8 401 (Unauthorized)
+apiRequest @ queryClient.ts:44
+mutationFn @ Dashboard.tsx:764
+fn @ @tanstack_react-query.js?v=376ae7e6:1189
+run @ @tanstack_react-query.js?v=376ae7e6:494
+start @ @tanstack_react-query.js?v=376ae7e6:536
+execute @ @tanstack_react-query.js?v=376ae7e6:1225
+await in execute
+mutate @ @tanstack_react-query.js?v=376ae7e6:2630
+(anonymous) @ @tanstack_react-query.js?v=376ae7e6:3295
+handleProductSubmit @ Dashboard.tsx:848
+onSubmit @ Dashboard.tsx:1974
+callCallback2 @ chunk-WERSD76P.js?v=376ae7e6:3674
+invokeGuardedCallbackDev @ chunk-WERSD76P.js?v=376ae7e6:3699
+invokeGuardedCallback @ chunk-WERSD76P.js?v=376ae7e6:3733
+invokeGuardedCallbackAndCatchFirstError @ chunk-WERSD76P.js?v=376ae7e6:3736
+executeDispatch @ chunk-WERSD76P.js?v=376ae7e6:7014
+processDispatchQueueItemsInOrder @ chunk-WERSD76P.js?v=376ae7e6:7034
+processDispatchQueue @ chunk-WERSD76P.js?v=376ae7e6:7043
+dispatchEventsForPlugins @ chunk-WERSD76P.js?v=376ae7e6:7051
+(anonymous) @ chunk-WERSD76P.js?v=376ae7e6:7174
+batchedUpdates$1 @ chunk-WERSD76P.js?v=376ae7e6:18913
+batchedUpdates @ chunk-WERSD76P.js?v=376ae7e6:3579
+dispatchEventForPluginEventSystem @ chunk-WERSD76P.js?v=376ae7e6:7173
+dispatchEventWithEnableCapturePhaseSelectiveHydrationWithoutDiscreteEventReplay @ chunk-WERSD76P.js?v=376ae7e6:5478
+dispatchEvent @ chunk-WERSD76P.js?v=376ae7e6:5472
+dispatchDiscreteEvent @ chunk-WERSD76P.js?v=376ae7e6:5449
